@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+
+html { height:100%; }
+body { position:absolute; top:0; bottom:0; right:0; left:0; background-color: #FEDCAC; margin:0;}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.mainlogo {
+    margin:auto;
+    height: 300px;
+}
+
+.maintext {
+    margin:auto;
+    text-align: center;
+    color: white;
+    text-shadow: 0.4px 0px black ;
+    font-family: 'Nanum Gothic Coding', monospace;
+
+}
+
+.login{
+    font-family: 'Nanum Gothic Coding', monospace;
+    display: flex;
+}
+
+.loginSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginInput1{
+    background-color: #F8ECD1;
+    padding: 15px; 
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    margin-right:5px;
+    border-radius: 15px;
+    border: 2px solid #F8ECD1;
+}
+
+.loginInput2{
+    background-color: #F8ECD1;
+    padding: 15px; 
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    margin-left:5px;
+    border-radius: 15px;
+    border: 2px solid #F8ECD1;
+}
+
+.loginButtonForm{
+    margin: auto;
+    margin-top: 24px;
+
+}
+
+.loginButton{
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    line-height: 8px;
+    border-radius: 15px;
+    border: 2px solid #F8ECD1;
+    padding: 15px;
+    width: 200px;
+    background-color: white;
+    color: #c59d42;
+}
+
+.registerIn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.registerButton{
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    line-height: 8px;
+    border-radius: 15px;
+    border: 2px solid #F8ECD1;
+    padding: 15px;
+    width: 200px;
+    background-color: white;
+    color: #c59d42;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerInput{
+    background-color: #F8ECD1;
+    padding: 15px; 
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid #F8ECD1;
+}
+
+.registerCheckButton{
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    line-height: 8px;
+    border-radius: 15px;
+    border: 2px solid #F8ECD1;
+    padding: 15px;
+    width: 234px;
+    background-color: white;
+    color: #c59d42;
+}
+
+.registerCheck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.returnButton{
+    margin-top:10px;
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 14px;
+}
+
+.return{
+    text-decoration-line: none;
+    color: rgb(110, 94, 74);
+}
